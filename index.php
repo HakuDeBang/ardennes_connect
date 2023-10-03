@@ -9,6 +9,9 @@ if (isset($_GET['action'])) {
         case 'home':
             homePage();
             break;
+        case 'quizz':
+            quizzPage();
+            break;
         case 'login':
             if (!isset($_SESSION['user']))
                 loginPage();
