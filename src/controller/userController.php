@@ -30,13 +30,14 @@ function loginTreatment()
         if (empty($errorTable)) {
 
             $user_id = $UserRepo->getIdByPseudo($pseudo);
-            if (($user_id)) {
+
+            if (is_integer($user_id)) {
                 $bool = $UserRepo->checkPassword($user_id, $password);
                 if ($bool) {
                         $userSession = $UserRepo->getUserById($user_id);
                         $_SESSION['user'] = (object) array(
-                            'user_id' => $userSession['user_id'],
-                            'role_id' => $userSession['role_id'],
+                            'user_id' => $userSession['id'],
+                            'role_id' => $userSession['role'],
                         );
                       
                         $succes[] = $AlertMessage->getSuccess('login', true, 'login');
