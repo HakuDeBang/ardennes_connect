@@ -717,6 +717,14 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1153,6 +1161,10 @@ video {
 
 .leading-\[85px\] {
   line-height: 85px;
+}
+
+.leading-\[105px\] {
+  line-height: 105px;
 }
 
 .text-lightGray {
