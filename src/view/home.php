@@ -7,5 +7,8 @@
 </head>
 <body>
     
+<?php require('template/navbar.php'); ?>
+<main></main>
+
 </body>
 </html>
