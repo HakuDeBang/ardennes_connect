@@ -1,0 +1,29 @@
+{
+  "init": [
+    "Que recherchez-vous ?",
+    ["Sport", "Gastronomie", "Vie nocturne", "Autre"]
+  ],
+  "sport": [
+    "Quel type de sport ?",
+    ["Équipe", "Sur table", "Nautique", "Autre"]
+  ],
+  "sport_team": [
+    "Plus de précision ?",
+    ["Football", "Basketball", "Rugby", "Autre"]
+  ],
+  "sport_table": [
+    "Plus de précision ?",
+    ["Ping pong", "Échec", "Baby-foot", "Autre"]
+  ],
+  "sport_nautique": [
+    "Plus de précision ?",
+    ["Natation", "À voile", "Aviron, bateau, canoë", "Autre"]
+  ]
+}
+// {
+//     question: "Quelle est la capitale de la France ?",
+//     options: ["Paris", "Berlin", "Londres", "Madrid"],
+//     correctAnswer: 0,
+//     nextIfCorrect: 1, // Prochaine question si la réponse est correcte
+//     nextIfWrong: 2,   // Prochaine question si la réponse est incorrecte
+// }

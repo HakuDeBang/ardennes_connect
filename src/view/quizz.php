@@ -15,7 +15,11 @@
         <div class="relative mt-20 w-10/12 mx-auto h-auto">
             <img class="brightness-[0.75] h-[800px] w-[1600px] rounded-[40px]" src="src/assets/img/header.jpg" alt="Forêt Ardennes">
             <div class="absolute top-0 left-0 w-full h-full p-8 flex items-start">
-                <div id="root" class="flex-grow"></div>
+                <div class="flex-grow text-white">
+                    <h3 id="question">ccc</h3>
+                    <div id="answers">
+                    </div>
+                </div>
                 <img class="w-[475px]" src="src/assets/img/logo_white.png" alt="">
             </div>
         </div>
@@ -23,7 +27,7 @@
 
     <?php require('template/footer.php'); ?>
     <?php require('template/script_head.php') ?>
-    <script type="text/babel" src="src/assets/react/index.js"></script>
+    <script src="src/assets/js/quiz.js"></script>
 </body>
 
 </html>
