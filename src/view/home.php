@@ -9,6 +9,7 @@
     
 <?php require('template/navbar.php'); ?>
 <main></main>
+<?php require('template/footer.php'); ?>
 
 </body>
 </html>
