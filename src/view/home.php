@@ -10,9 +10,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="src/assets/svg/favicon.svg">
 </head>
 <body>
-    <section class="bg-darkGray flex flex-col items-center justify-center">
+    <!-- NAVBAR / HEADER -->
+    <section class="bg-darkGray flex flex-col items-center justify-center h-screen pb-10">
+        <!-- Navbar -->
         <?php require('template/navbar.php'); ?>
-        
+        <!-- Header -->
         <?php require('template/header.php'); ?>
     </section>
     <?php require('template/footer.php'); ?>
