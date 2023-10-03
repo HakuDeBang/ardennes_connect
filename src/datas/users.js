@@ -1,0 +1,14 @@
+[
+  {
+    id: 0,
+    pseudo: 'admin',
+    password: 'admin',
+    role: 'ROLE_ADMIN'
+  },
+  {
+    id: 1,
+    pseudo: 'tom',
+    password: 'secret',
+    role: 'USER_ADMIN'
+  }
+];

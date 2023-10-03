@@ -1,14 +1,17 @@
 <?php
-require('controller/homeController.php');
-require('controller/userController.php');
+require('src/controller/homeController.php');
+require('src/controller/userController.php');
 
-if ($_GET['action']) {
+if (isset($_GET['action'])) {
     switch($_GET['action']) {
         case 'home':
             homePage();
             break;
         case 'login':
             loginPage();
+            break;
+        case 'loginTreatment':
+            loginTreatment();
             break;
         default:
     }
