@@ -1,0 +1,91 @@
+{
+    "errorMessage": [
+      {
+        "name": "noPDF",
+        "message": "Le fichier envoyé n'est pas un PDF !"
+      },
+      {
+        "name": "notActive",
+        "message": "Le compte n'est pas activé ! Merci de vérifier vos e-mails"
+      },
+      {
+        "name": "notForm",
+        "message": "Nous n'avons pas reçu de formulaire. Si le problème persiste, merci d'envoyer un message au support."
+      },
+      {
+        "name": "errorForm",
+        "message": "Un à plusieurs champ(s) sont incorrects. Merci de bien vouloir les corriger."
+      },
+      {
+        "name": "emptyField",
+        "message": "Le champ est vide."
+      },
+      {
+        "name": "emailIncorrect",
+        "message": "L'email est incorrect."
+      },
+      {
+        "name": "passwordNotIdentical",
+        "message": "Les mots de passe ne sont pas identiques."
+      },
+      {
+        "name": "passwordNotSafe",
+        "message": "Le mot de passe est trop faible."
+      },
+      {
+        "name": "existingEmail",
+        "message": "L'email a déjà été utilisé."
+      },
+      {
+        "name": "loginIncorrect",
+        "message": "Oups ! Connexion incorrecte."
+      },
+      {
+        "name": "ErrorCompanyRegister",
+        "message": "Erreur ! Une formation a été lue lors d'une inscription d'entreprise."
+      },
+      {
+        "name": "NoTrainingChosen",
+        "message": "Erreur ! Il n'y pas de formation lue."
+      },
+      {
+        "name": "duplicateCandidate",
+        "message": ""
+      },
+      {
+        "name": "ErrorLinkedinLink",
+        "message": "Veuillez entrer un lien LinkedIn valide."
+      },
+      {
+        "name": "ErrorGithubLink",
+        "message": "Veuillez entrer un lien Github valide."
+      }
+      
+    ],
+    "successMessage": [
+      {
+        "name": "register",
+        "message": "Votre inscription a bien été enregistrée.<br> Un email vous a été envoyé pour activer votre compte et confirmer votre email."
+      },
+      {
+        "name": "login",
+        "message": "Vous avez réussi à vous connecter."
+      },
+      {
+        "name": "succesCandidate",
+        "message": ""
+      },
+      {
+        "name": "mailForgetPassword",
+        "message": "<span class='font-bold'>Envoi réussi !</span><br> Si un compte appartient à cet email, vous recevrez un lien de demande de modification de mot de passe."
+      },
+      {
+        "name": "resetPassword",
+        "message": "<span class='font-bold'>Changement réussi !</span><br>Le mot de passe a bien été changé. Vous pouvez maintenant vous connecter."
+      },
+      {
+        "name": "sendMail",
+        "message": "Votre message à bien été envoyé."
+      }
+    ]
+  }

@@ -4,7 +4,7 @@
     private $name;
     private $location;
     public $message;
-    private $alertMessage = 'assets/json/alertMessage.json';
+    private $alertMessage = 'src/assets/datas/alertMessage.json';
     private $styleSucces = "mb-2 p-2 border-2 border-green-700 rounded-lg bg-green-200 text-green-500";
     private $styleError = "mb-2 p-2 border-2 border-red-700 rounded-lg bg-red-200 text-red-500";
     private $file_errorMessage = 'view/template/_errorMessage.php';
