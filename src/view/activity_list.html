@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../assets/js/loadTags.js"></script>
+    <script src="../assets/js/loadCompany.js"></script>
+    <script src="../assets/js/components/tag.js"></script>
+    <script src="../assets/js/components/subTagWrapper.js"></script>
+    <script src="../assets/js/components/companyCard.js"></script>
+    <script src="../assets/js/activity_list.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#CAC6C6] pt-2">
+    <div id="header">
+        <!-- Searchbar + bouton filtre -->
+        <div class="pl-4 flex mr-2">
+            <div class="relative grow">
+                <input placeholder="Recherchez..." class="rounded-full pl-3 placeholder:text-xs w-full">
+                <img src="../assets/img/icons/searchicon.svg" class="w-2.5 absolute right-2 top-1/2 -translate-y-1/2">
+            </div>
+            <svg id="filter-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-5 cursor-pointer">
+                <line x1="30" y1="0" x2="30" y2="15" stroke="black" stroke-width="4"  stroke-linecap="round" />
+                <circle cx="30" cy="35" r="12.5" fill="none" stroke="black" stroke-width="4" />
+                <line x1="30" y1="55" x2="30" y2="100" stroke="black" stroke-width="4" stroke-linecap="round" />
+            
+                <line x1="70" y1="0" x2="70" y2="35" stroke="black" stroke-width="4" stroke-linecap="round" />
+                <circle cx="70" cy="55" r="12.5" fill="none" stroke="black" stroke-width="4" />
+                <line x1="70" y1="75" x2="70" y2="100" stroke="black" stroke-width="4" stroke-linecap="round" />
+            </svg>
+        </div>
+        <div id="filter-wrapper" class="max-w-screen flex overflow-x-scroll pb-2">
+        </div>
+    </div>
+    <div id="activity_list" class="grid md:grid-cols-2 lg:grid-cols-3 mx-5 gap-2 mt-3">
+    </div>
+</body>
+</html>
