@@ -85,7 +85,7 @@
 
         map.on('click', onMapClick);
 
-        const userMarker = L.marker([0, 0], { icon: userIcon }).addTo(map);
+        const userMarker = L.marker([0, 0], { icon: userIcon }).bindPopup('<p class="text-center">c\'est moi</p>').addTo(map);
 
         function updateLocation(position) {
             const { latitude, longitude } = position.coords;
