@@ -9,36 +9,36 @@
           "1": {
             "label": "En équipe",
             "next": {
-              "question": "Plus de précision ?",
+              "question": "[En Équipe] Plus de précision ?",
               "answers": {
-                "1": "Football",
-                "2": "Basketball",
-                "3": "Rudby",
-                "4": "Autre"
+                "1": { "label": "Football" },
+                "2": { "label": "Basketball" },
+                "3": { "label": "Rugby" },
+                "4": { "label": "Autre" }
               }
             }
           },
           "2": {
             "label": "Sur table",
             "next": {
-              "question": "Plus de précision ?",
+              "question": "[Sur table] Plus de précision ?",
               "answers": {
-                "1": "Ping pong",
-                "2": "Échec",
-                "3": "Baby-foot",
-                "4": "Autre"
+                "1": { "label": "Ping pong" },
+                "2": { "label": "Échec" },
+                "3": { "label": "Baby-foot" },
+                "4": { "label": "Autre" }
               }
             }
           },
           "3": {
             "label": "Nautique",
             "next": {
-              "question": "Plus de précision ?",
+              "question": "[Nautique] Plus de précision ?",
               "answers": {
-                "1": "Natation",
-                "2": "À voile",
-                "3": "Aviron, bateau, canoë",
-                "4": "Autre"
+                "1": { "label": "Natation" },
+                "2": { "label": "À voile" },
+                "3": { "label": "Aviron, bateau, canoë" },
+                "4": { "label": "Autre" }
               }
             }
           }
