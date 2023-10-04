@@ -17,6 +17,8 @@ if (isset($_GET['action'])) {
             if (!isset($_SESSION['user']))
                 loginTreatment();
             break;
+        case 'profil':
+            profil();
         default:
     }
 } else {
