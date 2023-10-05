@@ -1,0 +1,51 @@
+{
+    "sport": [
+        {
+            "name": "C.A. VILLERS SEMEUSE",
+            "type": "club",
+            "tag": ["football","team"]
+        },
+        {
+            "name": "ENT.MLE CHARLEVILLE",
+            "type": "club",
+            "tag": ["football","team"]
+        },
+        {
+            "name": "Le Palamède",
+            "type": "club",
+            "tag": ["echec","table"],
+            "link": "https://www.lepalamederethel.com/"
+        },
+        {
+            "name": "PING-PONG CLUB TAGNON",
+            "type": "club",
+            "tag": ["pingPong","team"],
+            "link": "https://www.ppctagnon.com/"
+        },
+        {
+            "name": "ARM Natation",
+            "type": "club",
+            "tag": ["nautique", "natation"],
+            "link": "https://armn.fr/"
+        },
+        {
+            "name": "Bairon Nautic Club",
+            "type": "club",
+            "tag": ["nautique"],
+            "link": "https://www.baironnauticclub.fr/"
+        },
+        {
+            "name": "Association Profession Sport Culture Ardennes",
+            "type": "association",
+            "tag": ["nautique","golf"],
+            "link": "https://www.professionsport08.com/"
+        }
+        ,
+        {
+            "name": "",
+            "type": "",
+            "tag": [""],
+            "link": ""
+        }
+    ]
+}
