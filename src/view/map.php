@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-lightGray">
+<body class="bg-darkGray">
 
     <?php include('src/view/template/navbar.php') ?>
 
