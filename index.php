@@ -31,7 +31,7 @@ if (isset($_GET['action'])) {
             listPage();
             break;
         case 'profil':
-            if (!isset($_SESSION['user']))
+            if (isset($_SESSION['user']))
                 profil();
             break;
         case 'login':
@@ -44,6 +44,14 @@ if (isset($_GET['action'])) {
             break;
         case 'logOut':
             logOut();
+            break;
+        case 'fetchCompany_tag':
+            $data = file_get_contents("php://input");
+            if (isset($data)) {
+                filteredList_by_tag($data);
+            } else {
+                return false;
+            }
             break;
         default:
     }
