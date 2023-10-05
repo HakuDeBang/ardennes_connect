@@ -1,0 +1,65 @@
+@keyframes close_filter_line{
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(-40px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-40px) rotate(-25.9deg);
+    }
+}
+
+@keyframes close_filter_line_reverse{
+    0%{
+        transform: translateY(-40px) rotate(-25.9deg);
+        
+    }
+    50%{
+        transform: translateY(-40px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+@keyframes close_filter_line2{
+    0%{
+        transform: translateY(-35px);
+    }
+    50%{
+        transform: rotate(0deg) translateY(0px) ;
+    }
+    100%{
+        transform: translateY(40px) rotate(25.9deg);
+    }
+}
+
+@keyframes close_filter_line2_reverse{
+    0%{
+        transform: translateY(40px) rotate(25.9deg);
+        
+    }
+    50%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(-35px);
+    }
+}
+
+.opened > svg >line:nth-child(3){
+    animation: 1s ease-in 0s 1 normal forwards close_filter_line;
+}
+
+.opened > svg >line:nth-child(1){
+    animation: 1s ease-in 0s 1 normal forwards close_filter_line2;
+}
+
+.closed > svg >line:nth-child(3){
+    animation: 1s ease-in 0s 1 normal forwards close_filter_line_reverse;
+}
+
+.closed > svg >line:nth-child(1){
+    animation: 1s ease-in 0s 1 normal forwards close_filter_line2_reverse;
+}

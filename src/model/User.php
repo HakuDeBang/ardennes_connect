@@ -29,4 +29,6 @@ class User {
 
         return ($password === $passwordUser) ? true : false;
     }
-} 
+
+    
+}
