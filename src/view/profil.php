@@ -147,37 +147,26 @@
                     <!-- coupons CARD -->
                     <div class="w-[323px] card_container rounded-xl mx-4">
                     <div id="imageContainer" class="mb-10 md:mt-2"></div>
-                    <script>
-                        
-                        fetch('src/assets/datas/coupon.json')
-                            .then(response => response.json())
-                            .then(data => {
-                                var imageContainer = document.getElementById('imageContainer');
+                    <!-- Ajoutez cet élément pour afficher l'image -->
+                    <img id="couponImage" alt="Coupon Image">
 
-                                // Parcourir les liens d'images dans le JSON et les afficher
-                                data.images.forEach(function (imageName) {
-                                    var img = document.createElement('img');
-                                    img.src = 'src/assets/img/coupon/' + imageName; // Assurez-vous d'ajuster le chemin
-
-                                    // Ajouter un gestionnaire d'événement pour obtenir la hauteur de l'image
-                                    img.addEventListener('load', function () {
-                                        // Ajuster la hauteur de la div pour correspondre à la hauteur de l'image
-                                        imageContainer.style.height = img.height + 'px';
-                                    });
-
-                                    imageContainer.appendChild(img);
-                                });
-                            })
-                            .catch(error => {
-                                console.error('Erreur de chargement du fichier JSON :', error);
-                            });
-                    </script>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+let couponImageSrc = sessionStorage.getItem('coupon');
 
+let couponImageElement = document.getElementById('couponImage');
+
+if (couponImageSrc !== null && couponImageSrc !== '') {
+    couponImageElement.src = couponImageSrc;
+} else {
+    couponImageElement.style.display = 'none';
+}
+
+</script>
     <div class="my-4 flex flex-col 2xl:flex-row space-y-4 2xl:space-y-0 2xl:space-x-4">
 
         <div class="w-full flex flex-col mx-auto">
