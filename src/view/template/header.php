@@ -1,4 +1,4 @@
-<header class="relative mt-28 w-10/12 h-auto">
+<header class="relative w-10/12 h-auto mx-auto">
     <img class="brightness-[0.75] h-[800px] w-[1600px] rounded-[40px]" src="src/assets/img/bg-ardennes.jpg" alt="Forêt Ardennes">
     <div class="absolute top-0 left-0 w-full h-full flex items-start">
         <div class="flex-grow flex flex-col item-center justify-center">
@@ -14,6 +14,6 @@
             </p>
             <a class="text-lightGray bg-darkBlue text-center ml-16 w-96 px-8 py-3 rounded-full text-2xl" href="#" type="button">Trouver mon activité idéale</a>
         </div>
-        <img class="mt-10 mr-16 w-[475px]" src="src/assets/img/logo2.png" alt="">
+        <img class="mt-10 w-[475px]" src="src/assets/img/logo2.png" alt="">
     </div>
 </header>

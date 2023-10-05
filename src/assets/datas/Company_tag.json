@@ -1,0 +1,36 @@
+{
+    "tag": [
+        {
+            "id_company": 1,
+            "id_tag": 1
+        },
+        {
+            "id_company": 2,
+            "id_tag": 2
+        },
+        {
+            "id_company": 3,
+            "id_tag": 2
+        },
+        {
+            "id_company": 4,
+            "id_tag": 2
+        },
+        {
+            "id_company": 5,
+            "id_tag": 2
+        },
+        {
+            "id_company": 6,
+            "id_tag": 2
+        },
+        {
+            "id_company": 7,
+            "id_tag": 2
+        },
+        {
+            "id_company": 8,
+            "id_tag": 2
+        }
+    ]
+}
