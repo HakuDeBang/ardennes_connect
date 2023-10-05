@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-darkGray">
+<body class="bg-darkGray h-screen flex flex-col gap-10">
 
     <?php include('src/view/template/navbar.php') ?>
 

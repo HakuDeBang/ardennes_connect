@@ -1,0 +1,52 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "name": "bar"
+    },
+    {
+      "id": 2,
+      "name": "club"
+    },
+    {
+      "id": 3,
+      "name": "sport"
+    },
+    {
+      "id": 4,
+      "name": "team"
+    },
+    {
+      "id": 5,
+      "name": "football"
+    },
+    {
+      "id": 6,
+      "name": "echec"
+    },
+    {
+      "id": 7,
+      "name": "table"
+    },
+    {
+      "id": 8,
+      "name": "ping pong"
+    },
+    {
+      "id": 9,
+      "name": "nautique"
+    },
+    {
+      "id": 10,
+      "name": "natation"
+    },
+    {
+      "id": 11,
+      "name": "association"
+    },
+    {
+      "id": null,
+      "name": "golf"
+    }
+  ]
+}

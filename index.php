@@ -9,6 +9,7 @@ require('src/controller/homeController.php');
 require('src/controller/userController.php');
 require('src/controller/quizController.php');
 require('src/controller/mapController.php');
+require('src/controller/listController.php');
 
 // var_dump($_SESSION['user']);
 
@@ -22,6 +23,9 @@ if (isset($_GET['action'])) {
             break;
         case 'map':
             mapPage();
+            break;
+        case 'list':
+            listPage();
             break;
         case 'login':
             if (!isset($_SESSION['user']))

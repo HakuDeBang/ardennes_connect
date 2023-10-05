@@ -39,7 +39,7 @@ function companyCard(id,name,adress,cover,parentNode){
 
         let coverImg = document.createElement("img");
         coverImg.className = "aspect-square h-24";
-        coverImg.src = "../assets/img/upload/company_cover/"+cover;
+        coverImg.src = "src/assets/img/upload/company_cover/"+cover;
     card.appendChild(coverImg);
 
     parentNode.appendChild(card)
