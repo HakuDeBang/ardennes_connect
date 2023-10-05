@@ -27,6 +27,10 @@ if (isset($_GET['action'])) {
         case 'list':
             listPage();
             break;
+        case 'profil':
+            if (!isset($_SESSION['user']))
+                profil();
+            break;
         case 'login':
             if (!isset($_SESSION['user']))
                 loginPage();
