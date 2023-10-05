@@ -4,61 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ardennes Connect, QRcode</title>
-    <script src="https://webqr.com/llqrcode.js"></script>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/svg/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/svg/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/svg/favicon.svg">
 </head>
 <body>
-    
-<html>
-<head>
-  
-<title>Web QR</title>
+    <div id="your-qr-result"></div>
+    <h1>Scan qr</h1>
+    <div class ="flex justify-center">
+        <div id="my-qr-reader" class="w-96"></div>
+    </div>
+    <!-- LOAD LIBRARY -->
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript">
 
-<script type="text/javascript" src="https://webqr.com/llqrcode.js"></script>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<script type="text/javascript" src="https://webqr.com/webqr.js"></script>
+   <script src="qrcodescan.js">
+    </script>
 
-</head>
+    <div id="reader" width="600px"></div>
+    <div id="result"></div>
+<script>
+const scanner = new Html5QrcodeScanner('reader',{
+    qrbox:{
+        width :250,
+        height:250
+    },
+    fps: 20,
+});
 
-<body>
-<div id="main">
-<div id="header">
-<div style="position:relative;top:+20px;left:0px;">
-<p id="mp1">
-QR Code scanner
-</p>
+scanner.render(success, error);
 
-</div>
-<div id="mainbody">
-<table class="tsel" border="0" width="100%">
-<tr>
-<td valign="top" align="center" width="50%">
-<table class="tsel" border="0">
-<tr>
-<td><img class="selector" id="webcamimg" src="https://webqr.com/vid.png" onclick="setwebcam()" align="left" /></td>
-<td><img class="selector" id="qrimg" src="https://webqr.com/cam.png" onclick="setimg()" align="right"/></td></tr>
-<tr><td colspan="2" align="center">
-<div id="outdiv">
-</div></td></tr>
-</table>
-</td>
-</tr>
+function success(result){
+    document.getElementById('result').innerHTLM = `<p><a href="${result}">$result</a></p>`;
 
-<tr><td colspan="3" align="center">
-<div id="result"></div>
-</td></tr>
-</table>
+    scanner.clear();
+    document.getElementById('reader').remove();
 
-<!-- webqr_2016 -->
+}
 
-</div>&nbsp;
-<div id="footer">
-
-<h5 align="center">Copyright &copy; 2011 <a target="_blank" href="http://www.lazarsoft.info">Lazar Laszlo</a></h5>
-</div>
-</div>
-<canvas id="qr-canvas" width="800" height="600"></canvas>
-</body>
-
-</html>
+function error(err){
+    console.error(err);
+}
+</script>
 </body>
 </html>

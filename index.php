@@ -19,7 +19,13 @@ if (isset($_GET['action'])) {
             break;
         case 'profil':
             profil();
-        default:
+            break;
+        case 'qrcode':
+            qrcode();
+            break;
+        case 'coupon':
+            coupon();
+            break;
     }
 } else {
     homePage();

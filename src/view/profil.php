@@ -56,7 +56,8 @@
     <div class="fixed bottom-0 left-0 flex justify-center w-full py-4 text-sm font-semibold tracking-wide uppercase rounded-tr-lg bg-white   lg:static">
         <div class="flex mx-auto lg:w-2/5 xl:w-1/4 justify-between">
             <!-- COURS OF CREATOR -->
-            <a id="tabBtn1" class="flex items-center w-auto mx-4 cursor-pointer lg:mx-0">
+            
+            <a href="?action=qrcode" class="flex items-center w-auto mx-4 cursor-pointer lg:mx-0">
                 <img src="src/assets/svg/qrcode.svg" class="w-6 h-6 mr-1 lg:h-4 lg:w-4" alt="icon pour voir mes cours en ligne">
                 <p class="hidden lg:flex">Mon qr code</p>
             </a>
