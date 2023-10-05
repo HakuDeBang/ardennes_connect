@@ -1,8 +1,4 @@
 function companyCard(id,name,adress,cover,parentNode){
-    console.log({"id":id,
-                 "nom":name,
-                 "adresse":adress,
-                 "cover":cover})
     let card = document.createElement("div");
     card.dataset.id = id
     card.className = "bg-white flex rounded-md w-full justify-between overflow-hidden";
@@ -26,7 +22,19 @@ function companyCard(id,name,adress,cover,parentNode){
         informations.appendChild(companyContactDetails);
         
             let tagsWrapper = document.createElement("div");
-            tagsWrapper.className = "flex flex-wrap";
+            tagsWrapper.className = "flex flex-wrap tag-wrapper";
+            for (const[key,value] of Object.entries(activeFilter)){
+                if (tagCategorise[key+","+id]==="TRUE"){
+                    let tag = tags[id];
+                    tagComponent(tag.name,key,tagsWrapper,false,tagsWrapper,true);
+                }
+            }
+            for (const[key,value] of Object.entries(activeSubtag)){
+                if (subTagCategorise[key+","+id]==="TRUE"){
+                    let tag = subTags[id];
+                    tagComponent(tag.name,key,tagsWrapper,true,tagsWrapper,true);
+                }
+            }
         informations.appendChild(tagsWrapper);
 
         let coverImg = document.createElement("img");

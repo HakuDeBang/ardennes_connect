@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen w-screen overflow-hidden">
+    <div class="group h-full w-full flex space-around" id="filter-wrapper">
+        <svg class="h-full" viewBox="0 0 50 100"  xmlns="http://www.w3.org/2000/svg">
+            <line class="origin-center translate-y-[-40px]" x1="30" y1="0" x2="30" y2="47.5" stroke="black" stroke-width="4"  stroke-linecap="round" />
+            <circle class="duration-500  group-hover:scale-0 origin-top" cx="30" cy="35" r="12.5" fill="none" stroke="black" stroke-width="4" />
+            <line class="origin-center" x1="30" y1="52.5" x2="30" y2="140" stroke="black" stroke-width="4" stroke-linecap="round" />
+        </svg>
+        <svg class="h-full rotate-180" viewBox="0 0 50 100" xmlns="http://www.w3.org/2000/svg">
+            <line class="origin-center translate-y-[-40px]" x1="30" y1="0" x2="30" y2="47.5" stroke="black" stroke-width="4"  stroke-linecap="round" />
+            <circle class="duration-500 group-hover:scale-0 origin-top" cx="30" cy="35" r="12.5" fill="none" stroke="black" stroke-width="4" />
+            <line class="origin-center" x1="30" y1="52.5" x2="30" y2="140" stroke="black" stroke-width="4" stroke-linecap="round" />
+        </svg>
+    </div>
+</body>
+
+<style>
+    @keyframes close_filter_line{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-40px);
+        }
+        100%{
+            transform: translateY(-40px) rotate(-25.9deg);
+        }
+    }
+
+    @keyframes close_filter_line2{
+        0%{
+            transform: translateY(-40px);
+        }
+        50%{
+            transform: translateY(0px);
+        }
+        100%{
+            transform: translateY(40px) rotate(25.9deg);
+        }
+    }
+
+    #filter-wrapper:hover > svg >line:nth-child(3){
+        animation: 1s ease-in 0s 1 normal forwards close_filter_line;
+    }
+
+    #filter-wrapper:hover > svg >line:nth-child(1){
+        animation: 1s ease-in 0s 1 normal forwards close_filter_line2;
+    }
+
+
+</style>
+</html>

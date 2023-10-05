@@ -20,15 +20,18 @@
                 <input placeholder="Recherchez..." class="rounded-full pl-3 placeholder:text-xs w-full">
                 <img src="../assets/img/icons/searchicon.svg" class="w-2.5 absolute right-2 top-1/2 -translate-y-1/2">
             </div>
-            <svg id="filter-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="w-5 cursor-pointer">
-                <line x1="30" y1="0" x2="30" y2="15" stroke="black" stroke-width="4"  stroke-linecap="round" />
-                <circle cx="30" cy="35" r="12.5" fill="none" stroke="black" stroke-width="4" />
-                <line x1="30" y1="55" x2="30" y2="100" stroke="black" stroke-width="4" stroke-linecap="round" />
-            
-                <line x1="70" y1="0" x2="70" y2="35" stroke="black" stroke-width="4" stroke-linecap="round" />
-                <circle cx="70" cy="55" r="12.5" fill="none" stroke="black" stroke-width="4" />
-                <line x1="70" y1="75" x2="70" y2="100" stroke="black" stroke-width="4" stroke-linecap="round" />
-            </svg>
+            <div class="h-6 w-6 flex space-around" id="filter-icon">
+                <svg class="h-full" viewBox="0 0 50 100"  xmlns="http://www.w3.org/2000/svg">
+                    <line class="origin-center translate-y-[-35px]" x1="30" y1="0" x2="30" y2="45" stroke="black" stroke-width="4"  stroke-linecap="round" />
+                    <circle class="duration-500 delay-700 origin-left" cx="30" cy="35" r="12.5" fill="none" stroke="black" stroke-width="4" />
+                    <line class="origin-center translate-y-[5px]" x1="30" y1="55" x2="30" y2="140" stroke="black" stroke-width="4" stroke-linecap="round" />
+                </svg>
+                <svg class="h-full rotate-180" viewBox="0 0 50 100" xmlns="http://www.w3.org/2000/svg">
+                    <line class="origin-center translate-y-[-35px]" x1="30" y1="0" x2="30" y2="45" stroke="black" stroke-width="4"  stroke-linecap="round" />
+                    <circle class="duration-500 delay-700 origin-left" cx="30" cy="35" r="12.5" fill="none" stroke="black" stroke-width="4" />
+                    <line class="origin-center translate-y-[5px]" x1="30" y1="55" x2="30" y2="140" stroke="black" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </div>
         </div>
         <div id="filter-wrapper" class="max-w-screen flex overflow-x-scroll pb-2">
         </div>
@@ -36,4 +39,73 @@
     <div id="activity_list" class="grid md:grid-cols-2 lg:grid-cols-3 mx-5 gap-2 mt-3">
     </div>
 </body>
+<style>
+    @keyframes close_filter_line{
+        0%{
+            transform: translateY(5px);
+        }
+        50%{
+            transform: translateY(-40px) rotate(0deg);
+        }
+        100%{
+            transform: translateY(-40px) rotate(-25.9deg);
+        }
+    }
+
+    @keyframes close_filter_line_reverse{
+        0%{
+            transform: translateY(-40px) rotate(-25.9deg);
+            
+        }
+        50%{
+            transform: translateY(-40px) rotate(0deg);
+        }
+        100%{
+            transform: translateY(5px);
+        }
+    }
+
+    @keyframes close_filter_line2{
+        0%{
+            transform: translateY(-35px);
+        }
+        50%{
+            transform: rotate(0deg) translateY(0px) ;
+        }
+        100%{
+            transform: translateY(40px) rotate(25.9deg);
+        }
+    }
+
+    @keyframes close_filter_line2_reverse{
+        0%{
+            transform: translateY(40px) rotate(25.9deg);
+            
+        }
+        50%{
+            transform: translateY(0px) rotate(0deg);
+        }
+        100%{
+            transform: translateY(-35px);
+        }
+    }
+
+    .opened > svg >line:nth-child(3){
+        animation: 1s ease-in 0s 1 normal forwards close_filter_line;
+    }
+
+    .opened > svg >line:nth-child(1){
+        animation: 1s ease-in 0s 1 normal forwards close_filter_line2;
+    }
+
+    .closed > svg >line:nth-child(3){
+        animation: 1s ease-in 0s 1 normal forwards close_filter_line_reverse;
+    }
+
+    .closed > svg >line:nth-child(1){
+        animation: 1s ease-in 0s 1 normal forwards close_filter_line2_reverse;
+    }
+
+
+</style>
 </html>

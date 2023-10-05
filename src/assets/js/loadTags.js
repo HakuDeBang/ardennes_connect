@@ -1,6 +1,7 @@
 var tags = 
 {
     "1":{"name":"bar"},
+    "2":{"name":"café"}
 }
 
 var subTags = 
