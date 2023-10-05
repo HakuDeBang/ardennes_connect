@@ -18,7 +18,7 @@
                 <p class="text-center">Bienvenue sur ce questionnaire intéractif permettant de trouver au mieux ce que vous recherchez. <br /> Répondez aux questions et trouver l'invormation que vous désirez !</p>
                 <div>
                     <h3 id="question" class="text-5xl font-bold"><?= $question['question'] ?></h3>
-                    <hr class="w-3/4 mx-auto mt-2 mb-10 border-2 border-yellow" />
+                    <hr class="w-3/4 mx-auto mt-2 mb-10 border-2 border-yellowLogo" />
                     <div id="answers" class="flex justify-center gap-5">
                         <?php
                         foreach ($question['answers'] as $answer) {

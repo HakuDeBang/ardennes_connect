@@ -27,7 +27,7 @@
     <main>
         <div class="pb-10 flex flex-col items-center">
             <h2 class="text-4xl font-bold text-center">Map Intéractive</h2>
-            <hr class="w-[200px] mx-auto mt-2 border-2 border-yellow" />
+            <hr class="w-[200px] mx-auto mt-2 border-2 border-yellowLogo" />
         </div>
 
         <div class="bg-white sm:w-10/12 mx-auto rounded-[40px] border-2 border-darkGray flex items-center justify-center overflow-hidden">
