@@ -1,17 +1,24 @@
 <?php
 
-function homePage() {
+function homePage()
+{
     include('src/view/home.php');
 }
 
-function profil() {
+function evenement()
+{
+    include('src/view/evenement.php');
+
+  function profil() {
     include('src/view/profil.php');
 }
 
-function qrcode(){
+function qrcode()
+{
     include('src/view/scannerqrcode.php');
 }
 
-function coupon(){
+function coupon()
+{
     include('src/view/coupon.php');
 }

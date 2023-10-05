@@ -18,6 +18,8 @@ if (isset($_GET['action'])) {
         case 'home':
             homePage();
             break;
+        case 'event':
+            evenement();
         case 'quizz':
             quizzPage();
             break;
