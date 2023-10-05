@@ -8,8 +8,9 @@ function homePage()
 function evenement()
 {
     include('src/view/evenement.php');
-
-  function profil() {
+}
+function profil()
+{
     include('src/view/profil.php');
 }
 

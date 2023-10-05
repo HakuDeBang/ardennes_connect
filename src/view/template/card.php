@@ -1,4 +1,4 @@
-<div class="bg-white shadow-xl mt-10 rounded-lg overflow-hidden">
+<div class="bg-white shadow-xl rounded-lg overflow-hidden">
     <div class="md:flex m-6">
         <div class="md:w-1/3 p-4">
             <img src="src\assets\img\3.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
@@ -18,8 +18,7 @@
                         12h-21h.
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
-                            class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         du 8 juillet au 20 août 2023
                     </p>
                 </div>
@@ -32,7 +31,7 @@
     </div>
 </div>
 
-<div class="bg-white shadow-xl rounded-lg overflow-hidden mt-4">
+<div class="bg-white shadow-xl rounded-lg overflow-hidden">
     <div class="md:flex m-6">
         <div class="md:w-2/3 p-4">
             <h2 class="text-2xl font-semibold mb-2 mt-2">Festival mondial des théâtres de marionnettes</h2>
@@ -49,8 +48,7 @@
                         10h-20h.
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
-                            class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         du 16 septembre au 24 septembre 2023
                     </p>
                 </div>
@@ -69,7 +67,7 @@
 </div>
 
 
-<div class="bg-white shadow-xl rounded-lg overflow-hidden mt-4">
+<div class="bg-white shadow-xl rounded-lg overflow-hidden">
     <div class="md:flex m-6">
         <div class="md:w-1/3 p-4">
             <img src="src\assets\img\1.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
@@ -89,8 +87,7 @@
                         15h30 à 19h30
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
-                            class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         5 octobre 2023
                     </p>
                 </div>
@@ -103,7 +100,7 @@
     </div>
 </div>
 
-<div class="bg-white shadow-xl rounded-lg overflow-hidden mt-4">
+<div class="bg-white shadow-xl rounded-lg overflow-hidden">
     <div class="md:flex m-6">
 
 
@@ -120,8 +117,7 @@
                         14h30 à 00h30
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
-                            class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         16 août – 20 août 2023
                     </p>
                 </div>

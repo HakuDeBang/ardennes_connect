@@ -1,4 +1,4 @@
-<nav class="hidden lg:block sticky top-0 mx-auto bg-lightGray w-10/12 rounded-b-[40px]">
+<nav class="hidden lg:block sticky top-0 z-[100] mx-auto bg-lightGray w-10/12 rounded-b-[40px]">
     <div class="px-8 py-3 flex flex-row items-center justify-between">
         <!-- logo -->
         <a href="#" class="">

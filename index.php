@@ -20,6 +20,7 @@ if (isset($_GET['action'])) {
             break;
         case 'event':
             evenement();
+            break;
         case 'quizz':
             quizzPage();
             break;
