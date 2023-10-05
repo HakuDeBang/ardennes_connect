@@ -13,7 +13,7 @@
                 <span class="text-xl md:text-2xl lg:text-3xl 2xl:text-4xl leading-relaxed lg:leading-10">loisirs, restaurants, évènements,...</span><br>
                 <span class="text-2xl md:text-3xl lg:text-4xl 2xl:text-6xl leading-relaxed lg:leading-10">dans les Ardennes !</span>
             </p>
-            <a class="text-lightGray bg-darkBlue text-center ml-14 md:ml-20 lg:ml-16 w-56 px-4 py-1.5 md:px-6 md:py-2 md:w-72 lg:px-7 lg:py-2.5 lg:w-80 2xl:w-96 2xl:px-8 2xl:py-3 rounded-full text-base md:text-lg lg:text-xl 2xl:text-2xl" href="#" type="button">Trouver mon activité idéale</a>
+            <a href="quiz" class="text-lightGray bg-darkBlue text-center ml-14 md:ml-20 lg:ml-16 w-56 px-4 py-1.5 md:px-6 md:py-2 md:w-72 lg:px-7 lg:py-2.5 lg:w-80 2xl:w-96 2xl:px-8 2xl:py-3 rounded-full text-base md:text-lg lg:text-xl 2xl:text-2xl" href="#" type="button">Trouver mon activité idéale</a>
         </div>
         <img class="mt-20 lg:mt-0 lg:ml-0 lg:mr-16 w-56 md:w-64 lg:w-80 2xl:w-[475px] order-1 lg:order-2" src="src/assets/img/logo2.png" alt="">
     </div>

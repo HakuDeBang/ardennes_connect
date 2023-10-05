@@ -35,7 +35,6 @@
     </main>
 
     <?php require('template/footer.php'); ?>
-    <?php require('template/script_head.php') ?>
     <script src="src/assets/js/quiz.js"></script>
 </body>
 
