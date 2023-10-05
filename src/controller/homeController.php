@@ -13,5 +13,5 @@ function qrcode(){
 }
 
 function coupon(){
-    include('src/view/coupon.php')
+    include('src/view/coupon.php');
 }
