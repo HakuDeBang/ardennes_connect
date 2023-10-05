@@ -16,3 +16,4 @@ RewriteRule ^accueil$ ?action=home
 RewriteRule ^carte$ ?action=map
 RewriteRule ^quiz$ ?action=quizz
 RewriteRule ^connexion$ ?action=login
+RewriteRule ^deconnexion$ ?action=logOut

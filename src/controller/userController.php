@@ -59,3 +59,8 @@ function loginTreatment()
         echo $errorJson;
     }
 }
+
+function logOut() {
+    unset($_SESSION['user']);
+    header("Refresh:0; url=accueil");
+}

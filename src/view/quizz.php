@@ -8,7 +8,7 @@
     <link href="./dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-lightGray h-screen">
+<body class="bg-darkGray h-screen">
 
     <?php require('template/navbar.php'); ?>
     <main>
