@@ -3,6 +3,7 @@
     <div class="absolute top-0 left-0 w-full h-full flex flex-col items-center lg:flex-row">
         <div class="flex-grow flex flex-col item-center justify-center text-center lg:text-left order-2 lg:order-1">
             <p class="lg:ml-16 text-lightGray font-semibold text-2xl md:text-3xl lg:text-5xl 2xl:text-6xl mb-4 lg:mb-8">
+
                 Découvrez<br>
             </p>
             <h1 class="lg:ml-16 text-lightGray font-semibold text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl mb-4 lg:mb-8">ArdenneConnect</h1>
