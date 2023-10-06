@@ -1,6 +1,6 @@
 <?php
-require_once('src/model/Company.php');
-require_once('src/model/Tag.php');
+require_once('src/model/company.php');
+require_once('src/model/tag.php');
 
 function listPage($dataJson = null)
 {
