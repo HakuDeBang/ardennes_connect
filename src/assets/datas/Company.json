@@ -8,9 +8,6 @@
       "cover": "photo_vert_bock.png",
       "desc": "en sah en sah en sah le vert bock c'est vachement cool quand même fin jsp vous et bref voila moi je kiffe guillaume est d'accord",
       "qr_code": "vert_bock_qrCode.png",
-      "lat": 49.772491,
-      "lon": 4.718851,
-      "popupContent": "<div class='w-full overflow-hidden flex flex-col items-center justify-center rounded-lg'><img class='' src='src/assets/img/imgMap1.jpg'><h5 class='font-bold text-xl'>Vert Bock</h5><span>17 Rue Irénée Carré, 08000 Charleville-Mézières</span><span data-selected=true class='text-xs bg-white flex items-center w-fit py-1 px-3 ml-5 mt-2 leading-none rounded-xldata-[selected=true]:bg-[#004a93] data-[selected=true]:text-white data-[not_active]:bg-[#dc2f34] data-[selected=true]:text-whitetransition-all duration-200'>Bar</span><div>",
       "id_user": "2",
       "link": ""
     },
@@ -22,8 +19,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": ""
     },
@@ -35,8 +30,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": ""
     },
@@ -48,8 +41,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": "https://www.lepalamederethel.com/"
     },
@@ -61,8 +52,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": "https://www.ppctagnon.com/"
     },
@@ -74,8 +63,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": "https://armn.fr/"
     },
@@ -87,8 +74,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": "https://www.baironnauticclub.fr/"
     },
@@ -100,8 +85,6 @@
       "cover": "default.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": null,
-      "lon": null,
       "id_user": "2",
       "link": "https://www.professionsport08.com/"
     },
@@ -113,8 +96,6 @@
       "cover": "imgMap5.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": 49.77199299973133,
-      "lon": 4.718542098999024,
       "id_user": "2",
       "link": ""
     },
@@ -126,8 +107,6 @@
       "cover": "imgMap6.jpg",
       "desc": "",
       "qr_code": "",
-      "lat": 49.77199299973133,
-      "lon": 4.718542098999024,
       "id_user": "2",
       "link": ""
     }
