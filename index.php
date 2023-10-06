@@ -12,6 +12,7 @@ require('src/controller/mapController.php');
 require('src/controller/listController.php');
 
 // var_dump($_SESSION['user']);
+var_dump('Index');
 
 if (isset($_GET['action'])) {
     switch ($_GET['action']) {
@@ -30,8 +31,17 @@ if (isset($_GET['action'])) {
         case 'list':
             listPage();
             break;
+        case 'filteredList':
+            var_dump('je sui là');
+            $data = file_get_contents("php://input");
+            if (isset($data)) {
+                filteredListPage($data);
+            } else {
+                return false;
+            };
+            break;
         case 'profil':
-            if (!isset($_SESSION['user']))
+            if (isset($_SESSION['user']))
                 profil();
             break;
         case 'login':
@@ -44,6 +54,22 @@ if (isset($_GET['action'])) {
             break;
         case 'logOut':
             logOut();
+            break;
+        case 'fetchCompany_tag':
+            $data = file_get_contents("php://input");
+            if (isset($data)) {
+                filteredList_by_tag($data);
+            } else {
+                return false;
+            }
+            break;
+        case 'fetchCompany_search':
+            $data = file_get_contents("php://input");
+            if (isset($data)) {
+                filteredList_by_search($data);
+            } else {
+                return false;
+            }
             break;
         default:
     }

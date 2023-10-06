@@ -29,7 +29,10 @@
                         ?>
                     </div>
                 </div>
-                <button type="button" id="return" class="px-5 py-2 text-xl">Retour</button>
+                <div class="w-full flex justify-center gap-48">
+                    <button type="button" id="return" class="px-5 py-2 text-xl font-semibold">Retour</button>
+                    <button type="button" id="valided" class="hidden px-5 py-2 text-xl font-semibold">Valider</button>
+                </div>
             </div>
         </div>
     </main>
