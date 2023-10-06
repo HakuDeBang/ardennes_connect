@@ -104,6 +104,32 @@
       "lon": null,
       "id_user": "2",
       "link": "https://www.professionsport08.com/"
+    },
+    {
+      "id": 9,
+      "name": "La Bourbonade",
+      "tags": [1],
+      "adress": "23 Rue de Bourbon, 08000 Charleville-Mézières",
+      "cover": "imgMap5.jpg",
+      "desc": "",
+      "qr_code": "",
+      "lat": 49.77199299973133,
+      "lon": 4.718542098999024,
+      "id_user": "2",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "name": "L'antre des jeux",
+      "tags": [13],
+      "adress": "31 Rue Bourbon, 08000 Charleville-Mézières",
+      "cover": "imgMap6.jpg",
+      "desc": "",
+      "qr_code": "",
+      "lat": 49.77199299973133,
+      "lon": 4.718542098999024,
+      "id_user": "2",
+      "link": ""
     }
   ]
 }
