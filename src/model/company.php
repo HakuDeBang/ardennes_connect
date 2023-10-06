@@ -46,7 +46,8 @@ class Company
     {
         $bool = true;
         foreach ($filters as $filter) {
-            if (str_contains($filter, 'filter_'))
+            // if (str_contains($filter, 'filter_'))
+            if (strpos($filter, "filter_"))
                 $filter = explode('_', $filter)[1];
             if (!in_array($filter, $tags)) {
                 $bool = false;
@@ -64,7 +65,9 @@ class Company
 
         $companies = [];
         foreach ($dataCompany->companies as $index => $company) {
-            if (str_contains(strtolower($company->name), strtolower($valueInput))) {
+            // if (str_contains(strtolower($company->name), strtolower($valueInput))) {
+            if (strpos(strtolower($company->name), strtolower($valueInput))) {
+
                 $tags = [];
                 foreach ($company->tags as $id_tag) {
                     array_push($tags, $dataTags[$id_tag - 1]->name);
