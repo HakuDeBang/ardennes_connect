@@ -1,7 +1,41 @@
 <div class="bg-white shadow-xl rounded-lg overflow-hidden">
     <div class="md:flex m-6">
+
+
+        <div class="md:w-2/3 p-4"><a href="index.php?action=pageEvent">
+                <h2 class="text-2xl font-semibold mb-2 mt-2">Littératures Maudites 2023</h2>
+            </a>
+            <div class="max-w-xl">
+                <p class="text-gray-600 mt-2">Le réseau des médiathèques d’Ardenne Métropole, vous donne rendez-vous
+                    autour de la thématique : ‘‘la mort… et l’après’’ avec une programmation dense et variée</p>
+                <p class="text-gray-600 font-bold mt-4">le réseau des Médiathèques Communautaires Ardenne Métropole.</p>
+                <div class="flex mt-2">
+                    <p class="text-gray-600 ">
+                        <img src="src\assets\svg\vector.svg" alt="Clock Icon" class="w-6 h-6 inline-block align-middle">
+                        12h-21h.
+                    </p>
+                    <p class="text-gray-600 ml-3">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
+                            class="w-6 h-6 inline-block align-middle">
+                        13 > 31 OCTOBRE 2023
+                    </p>
+                </div>
+                <p class="text-gray-600 mt-2">
+                    <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
+                    Médiathèques
+                </p>
+            </div>
+        </div>
         <div class="md:w-1/3 p-4">
-            <img src="src\assets\img\3.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
+            <img src="src\assets\img\afficheMed.jpg" alt="Image" class="w-80 rounded-lg h-80 object-cover">
+        </div>
+    </div>
+</div>
+
+<div class="bg-white shadow-xl rounded-lg overflow-hidden">
+    <div class="md:flex m-6">
+        <div class="md:w-1/3 p-4">
+            <img src="src\assets\img\3.png" alt="Image" class="w-80 rounded-lg h-80 object-cover">
         </div>
 
         <div class="md:w-2/3 p-4">
@@ -18,7 +52,8 @@
                         12h-21h.
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
+                            class="w-6 h-6 inline-block align-middle">
                         du 8 juillet au 20 août 2023
                     </p>
                 </div>
@@ -48,7 +83,8 @@
                         10h-20h.
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
+                            class="w-6 h-6 inline-block align-middle">
                         du 16 septembre au 24 septembre 2023
                     </p>
                 </div>
@@ -59,7 +95,7 @@
             </div>
         </div>
         <div class="md:w-1/3 p-2">
-            <img src="src\assets\img\2.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
+            <img src="src\assets\img\2.png" alt="Image" class="w-80 rounded-lg h-80 object-cover">
         </div>
 
 
@@ -70,7 +106,7 @@
 <div class="bg-white shadow-xl rounded-lg overflow-hidden">
     <div class="md:flex m-6">
         <div class="md:w-1/3 p-4">
-            <img src="src\assets\img\1.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
+            <img src="src\assets\img\1.png" alt="Image" class="w-80 rounded-lg h-80 object-cover">
         </div>
 
         <div class="md:w-2/3 p-4">
@@ -87,7 +123,8 @@
                         15h30 à 19h30
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
+                            class="w-6 h-6 inline-block align-middle">
                         5 octobre 2023
                     </p>
                 </div>
@@ -117,7 +154,8 @@
                         14h30 à 00h30
                     </p>
                     <p class="text-gray-600 ml-3">
-                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
+                        <img src="src\assets\svg\vector1.svg" alt="Calendar Icon"
+                            class="w-6 h-6 inline-block align-middle">
                         16 août – 20 août 2023
                     </p>
                 </div>
@@ -128,7 +166,7 @@
             </div>
         </div>
         <div class="md:w-1/3 p-4">
-            <img src="src\assets\img\events.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
+            <img src="src\assets\img\events.png" alt="Image" class="w-80 rounded-lg h-80 object-cover">
         </div>
     </div>
 </div>
