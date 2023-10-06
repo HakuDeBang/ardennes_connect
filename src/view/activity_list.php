@@ -20,7 +20,7 @@
             <div id="header" class="p-5 bg-white rounded-[40px]">
                 <div class="flex gap-5">
                     <div class="relative grow">
-                        <input placeholder="Recherchez..." class="rounded-full pl-3 placeholder:text-xs w-full border-2 border-lightBlue">
+                        <input placeholder="Recherchez..." id="searchBar" class="rounded-full pl-3 placeholder:text-xs w-full border-2 border-lightBlue">
                         <img src="src/assets/img/icons/searchicon.svg" class="w-2.5 absolute right-2 top-1/2 -translate-y-1/2">
                     </div>
                 </div>

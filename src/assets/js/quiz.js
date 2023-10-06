@@ -4,6 +4,8 @@ const answersUser = {
 };
 const question = document.getElementById("question");
 const answer = document.getElementById("answers");
+const valided = document.getElementById("valided");
+console.log(valided);
 handlerButtonAnswers();
 
 async function nextQuestion() {
@@ -38,21 +40,23 @@ async function nextQuestion() {
     button.innerHTML = Array.isArray(answerData)
       ? answerData
       : answerData.label;
-
     answer.appendChild(button);
   });
   handlerButtonAnswers();
   return true;
 }
-
 function handlerButtonAnswers() {
   const answerBtn = document.querySelectorAll("#answers button");
   answerBtn.forEach((button, key) => {
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       answersUser.answers.push(button.innerHTML);
       answersUser.key.push(key + 1);
-      const bool = nextQuestion();
-      if (!bool) console.log("end");
+      const bool = await nextQuestion();
+      console.log(bool);
+
+      !bool
+        ? valided.classList.remove("hidden")
+        : valided.classList.add("hidden");
     });
   });
 }
@@ -80,3 +84,15 @@ async function fetchData() {
     console.error("Erreur:", error);
   }
 }
+
+valided.addEventListener("click", (event) => {
+  fetch("index?action=filteredList", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      filter: answersUser.key,
+    })
+  });
+});

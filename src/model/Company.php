@@ -27,23 +27,23 @@ class Company
         $Tags = new Tag();
         $dataTags = $Tags->getAll();
 
-        // var_dump($dataCompany);
+        $companies = [];
 
         foreach ($dataCompany->companies as $index => $company) {
+            // var_dump($this->checkTag($filter, $company->tags));
             if ($this->checkTag($filter, $company->tags)) {
                 $tags = [];
                 foreach ($company->tags as $id_tag) {
                     array_push($tags, $dataTags[$id_tag - 1]->name);
                 }
                 $dataCompany->companies[$index]->tags = $tags;
-            } else {
-                var_dump(json_encode($dataCompany));
-                unset($dataCompany->companies[$index]);
-                var_dump(json_encode($dataCompany));
+                array_push($companies, $dataCompany->companies[$index]);
             }
         }
+        // var_dump($companies);
+        // var_dump(json_encode($companies));
 
-        return $dataCompany->companies;
+        return $companies;
     }
     private function checkTag($filter, $tags)
     {
@@ -64,19 +64,18 @@ class Company
         $Tags = new Tag();
         $dataTags = $Tags->getAll();
 
-
+        $companies = [];
         foreach ($dataCompany->companies as $index => $company) {
-            if (str_contains($company->name, $valueInput)) {
+            if (str_contains(strtolower($company->name), strtolower($valueInput))) {
                 $tags = [];
                 foreach ($company->tags as $id_tag) {
                     array_push($tags, $dataTags[$id_tag - 1]->name);
                 }
                 $dataCompany->companies[$index]->tags = $tags;
-            } else {
-                unset($dataCompany->companies[$index]);
+                array_push($companies, $dataCompany->companies[$index]);
             }
         }
 
-        return $dataCompany->companies;
+        return $companies;
     }
 }

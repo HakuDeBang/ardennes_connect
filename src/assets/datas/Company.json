@@ -16,7 +16,7 @@
     {
       "id": 2,
       "name": "C.A. VILLERS SEMEUSE",
-      "tags": [2],
+      "tags": [2,3,5],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "ENT.MLE CHARLEVILLE",
-      "tags": [2],
+      "tags": [2,3,5],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "name": "Le Palamède",
-      "tags": [2],
+      "tags": [2,3,6],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -55,7 +55,7 @@
     {
       "id": 5,
       "name": "PING-PONG CLUB TAGNON",
-      "tags": [2],
+      "tags": [2,3,7,8],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -68,7 +68,7 @@
     {
       "id": 6,
       "name": "ARM Natation",
-      "tags": [2],
+      "tags": [2,3,9,10],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -81,7 +81,7 @@
     {
       "id": 7,
       "name": "Bairon Nautic Club",
-      "tags": [2],
+      "tags": [2,3,9],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -94,7 +94,7 @@
     {
       "id": 8,
       "name": "Association Profession Sport Culture Ardennes",
-      "tags": [2],
+      "tags": [2,3,9,11],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
