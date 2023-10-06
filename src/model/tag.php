@@ -1,7 +1,8 @@
 <?php
 
-class Tag {
-    private $dataTag = 'src/assets/datas/Tag.json';
+class Tag
+{
+    private $dataTag = 'src/assets/datas/tag.json';
     private $tags;
 
     function __construct()

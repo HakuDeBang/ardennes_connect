@@ -1,7 +1,4 @@
 <?php
-require_once('src/model/company.php');
-require_once('src/model/tag.php');
-
 function listPage($dataJson = null)
 {
     $filter = [];

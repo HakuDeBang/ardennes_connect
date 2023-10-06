@@ -5,11 +5,13 @@ require_once('src/model/alertMessage.php');
 require_once('src/model/user.php');
 require_once('src/model/quiz.php');
 require_once('src/model/map.php');
-require('src/controller/homeController.php');
-require('src/controller/userController.php');
-require('src/controller/quizController.php');
-require('src/controller/mapController.php');
-require('src/controller/listController.php');
+require_once('src/model/company.php');
+require_once('src/model/tag.php');
+require_once('src/controller/homeController.php');
+require_once('src/controller/userController.php');
+require_once('src/controller/quizController.php');
+require_once('src/controller/mapController.php');
+require_once('src/controller/listController.php');
 
 // var_dump($_SESSION['user']);
 
