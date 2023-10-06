@@ -21,6 +21,9 @@ if (isset($_GET['action'])) {
         case 'event':
             evenement();
             break;
+        case 'pageEvent':
+            pageEvent();
+            break;
         case 'quizz':
             quizzPage();
             break;
@@ -28,11 +31,23 @@ if (isset($_GET['action'])) {
             mapPage();
             break;
         case 'list':
-            listPage();
+            if (isset($_GET['filter'])) {
+                listPage($_GET['filter']);
+            } else {
+                listPage();
+            };
             break;
         case 'profil':
-            if (!isset($_SESSION['user']))
+            if (isset($_SESSION['user']))
                 profil();
+            break;
+        case 'scanner':
+            if (isset($_SESSION['user']))
+                qrcode();
+            break;
+        case 'coupon':
+            if (isset($_SESSION['user']))
+                coupon();
             break;
         case 'login':
             if (!isset($_SESSION['user']))
@@ -44,6 +59,22 @@ if (isset($_GET['action'])) {
             break;
         case 'logOut':
             logOut();
+            break;
+        case 'fetchCompany_tag':
+            $data = file_get_contents("php://input");
+            if (isset($data)) {
+                filteredList_by_tag($data);
+            } else {
+                return false;
+            }
+            break;
+        case 'fetchCompany_search':
+            $data = file_get_contents("php://input");
+            if (isset($data)) {
+                filteredList_by_search($data);
+            } else {
+                return false;
+            }
             break;
         default:
     }

@@ -18,7 +18,7 @@ class Quiz {
             "answers" => []
         ];
         foreach($questionList->answers as $answers) {
-            array_push($question['answers'], $answers->label);
+            array_push($question['answers'], $answers);
         }
         // var_dump($question);
 

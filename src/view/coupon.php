@@ -23,10 +23,11 @@
     </div>
     <script>
         function test(){
-            sessionStorage.setItem('coupon','src/assets/img/coupon/vertbock.png');
+            sessionStorage.setItem('coupon','src/assets/img/coupon/babyfoot.png');
             console.log(sessionStorage.getIt)
-            window.location.href = '?action=profil';
+            window.location.href = 'profil';
         }
+        
     </script>
 </body>
 </html>

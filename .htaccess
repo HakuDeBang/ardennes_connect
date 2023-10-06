@@ -15,9 +15,12 @@ RewriteEngine on
 RewriteRule ^accueil$ ?action=home
 RewriteRule ^quiz$ ?action=quizz
 RewriteRule ^carte$ ?action=map
-RewriteRule ^annuaire$ ?action=list
+RewriteRule ^annuaire$ ?action=list [QSA]
 RewriteRule ^evenement$ ?action=event
 RewriteRule ^activite$ ?action=list
+RewriteRule ^profil$ ?action=profil
+RewriteRule ^scanner$ ?action=scanner
+RewriteRule ^coupon$ ?action=coupon
 
 RewriteRule ^connexion$ ?action=login
 RewriteRule ^deconnexion$ ?action=logOut
