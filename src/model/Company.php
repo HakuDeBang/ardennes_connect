@@ -30,7 +30,7 @@ class Company
         $companies = [];
 
         foreach ($dataCompany->companies as $index => $company) {
-            // var_dump($this->checkTag($filter, $company->tags));
+
             if ($this->checkTag($filter, $company->tags)) {
                 $tags = [];
                 foreach ($company->tags as $id_tag) {
@@ -40,21 +40,18 @@ class Company
                 array_push($companies, $dataCompany->companies[$index]);
             }
         }
-        // var_dump($companies);
-        // var_dump(json_encode($companies));
 
         return $companies;
     }
-    private function checkTag($filter, $tags)
+    private function checkTag($filters, $tags)
     {
-        foreach ($tags as $tag) {
-            $bool = false;
-            if (in_array($tag, $filter)) {
-                $bool = true;
+        $bool = true;
+        foreach ($filters as $filter) {
+            if (!in_array($filter, $tags)) {
+                $bool = false;
                 break;
             }
         }
-
         return $bool;
     }
 

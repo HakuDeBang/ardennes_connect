@@ -1,5 +1,5 @@
 <?php foreach ($companies as $company) { ?>
-    <div id="<?= $company->id ?>" class="bg-white flex rounded-md w-full justify-between overflow-hidden">
+    <div id="company_<?= $company->id ?>" class="bg-white flex rounded-md w-full justify-between overflow-hidden">
         <div class="flex flex-col h-full justify-between p-2">
             <h4 class="font-semibold"><?= $company->name ?></h4>
             <p class="font-semibold text-xs"><?= $company->adress ?></p>

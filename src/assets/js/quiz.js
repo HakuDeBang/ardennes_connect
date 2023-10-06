@@ -32,9 +32,10 @@ async function nextQuestion() {
 
   newAnswers.forEach((answerData) => {
     // <button type="button" class="px-5 py-2 bg-lightBlue/50 rounded-lg text-xl font-medium"><?= $answer ?></button>
-
+    console.log(answerData);
     const button = document.createElement("button");
     button.type = "button";
+    button.id = answerData.id;
     button.classList =
       "px-5 py-2 bg-lightBlue/50 rounded-lg text-xl font-medium";
     button.innerHTML = Array.isArray(answerData)
@@ -49,7 +50,8 @@ function handlerButtonAnswers() {
   const answerBtn = document.querySelectorAll("#answers button");
   answerBtn.forEach((button, key) => {
     button.addEventListener("click", async () => {
-      answersUser.answers.push(button.innerHTML);
+      console.log(button);
+      answersUser.answers.push(button.id);
       answersUser.key.push(key + 1);
       const bool = await nextQuestion();
       console.log(bool);
@@ -86,13 +88,10 @@ async function fetchData() {
 }
 
 valided.addEventListener("click", (event) => {
-  fetch("index?action=filteredList", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      filter: answersUser.key,
-    })
-  });
+  console.log(answersUser);
+
+  const filters = answersUser.answers;
+  const filtersJSON = JSON.stringify(filters);
+
+  window.location.href = "annuaire?filter=" + encodeURIComponent(filtersJSON);
 });

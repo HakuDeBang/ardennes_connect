@@ -2,29 +2,21 @@
 require_once('src/model/Company.php');
 require_once('src/model/Tag.php');
 
-function listPage()
+function listPage($dataJson = null)
 {
-    $Company = new Company();
-    $companies = $Company->getAll();
+    $filter = [];
+    if (!is_null($dataJson)) $filter = json_decode($dataJson);
 
+    $Company = new Company();
     $Tag = new Tag();
     $tags = $Tag->getAll();
 
-    include('src/view/activity_list.php');
-}
-
-function filteredListPage($dataJson)
-{
-    $data = json_decode($dataJson)->filter;
-    $Company = new Company();
-    $companies = null;
-
-    if (!empty($data)) {
-        $companies = $Company->getCompanyByFilter($data);
+    if (!empty($filter)) {
+        $companies = $Company->getCompanyByFilter($filter);
     } else {
         $companies = $Company->getAll();
     }
-    // var_dump($companies);
+
     include('src/view/activity_list.php');
 }
 

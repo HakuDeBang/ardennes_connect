@@ -2,43 +2,47 @@
   "question": "Que recherchez-vous ?",
   "answers": {
     "1": {
+      "id": 3,
       "label": "Sport",
       "next": {
         "question": "Quel type de sport ?",
         "answers": {
           "1": {
+            "id": 4,
             "label": "En équipe",
             "next": {
               "question": "[En Équipe] Plus de précision ?",
               "answers": {
-                "1": { "label": "Football" },
-                "2": { "label": "Basketball" },
-                "3": { "label": "Rugby" },
-                "4": { "label": "Autre" }
+                "1": { "id": 5, "label": "Football" },
+                "2": { "id": 13, "label": "Basketball" },
+                "3": { "id": 14, "label": "Rugby" },
+                "4": { "id": null, "label": "Autre" }
               }
             }
           },
           "2": {
+            "id": 7,
             "label": "Sur table",
             "next": {
               "question": "[Sur table] Plus de précision ?",
               "answers": {
-                "1": { "label": "Ping pong" },
-                "2": { "label": "Échec" },
-                "3": { "label": "Baby-foot" },
-                "4": { "label": "Autre" }
+                "1": { "id": 8, "label": "Ping pong" },
+                "2": { "id": 6, "label": "Échec" },
+                "3": { "id": 15, "label": "Baby-foot" },
+                "4": { "id": null, "label": "Autre" }
               }
             }
           },
           "3": {
+            "id": 9,
             "label": "Nautique",
             "next": {
               "question": "[Nautique] Plus de précision ?",
               "answers": {
-                "1": { "label": "Natation" },
-                "2": { "label": "À voile" },
-                "3": { "label": "Aviron, bateau, canoë" },
-                "4": { "label": "Autre" }
+                "1": { "id": 9, "label": "Natation" },
+                "2": { "id": 16, "label": "À voile" },
+                "3": { "id": 17, "label": "Aviron, bateau, canoë" },
+                "4": { "id": null, "label": "Autre" }
               }
             }
           }
@@ -46,6 +50,7 @@
       }
     },
     "2": {
+      "id": 18, 
       "label": "Gastronomie",
       "next": {
         "question": "Une préférence ?",
@@ -53,6 +58,7 @@
       }
     },
     "3": {
+      "id": 19,
       "label": "Vie nocturne",
       "next": {
         "question": "Quel type d'activité ?",

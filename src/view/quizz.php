@@ -23,15 +23,15 @@
                         <?php
                         foreach ($question['answers'] as $answer) {
                         ?>
-                            <button type="button" class="px-5 py-2 bg-lightBlue/50 rounded-lg text-xl font-medium"><?= $answer ?></button>
+                            <button id="<?= $answer->id ?>" type="button" class="px-5 py-2 bg-lightBlue/50 rounded-lg text-xl font-medium"><?= $answer->label ?></button>
                         <?php
                         }
                         ?>
                     </div>
                 </div>
                 <div class="w-full flex justify-center gap-48">
-                    <button type="button" id="return" class="px-5 py-2 text-xl font-semibold">Retour</button>
-                    <button type="button" id="valided" class="hidden px-5 py-2 text-xl font-semibold">Valider</button>
+                    <button type="button" id="return" class="bg-redLogo/70 border-2 border-redLogo rounded-lg px-3 py-1 text-white text-xl font-semibold">Retour</button>
+                    <button type="button" id="valided" class="bg-darkBlue/70 border-2  border-darkBlue rounded-lg px-3 py-1 text-white text-xl font-semibold">Valider</button>
                 </div>
             </div>
         </div>

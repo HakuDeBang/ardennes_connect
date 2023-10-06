@@ -1,6 +1,7 @@
 <?php
 
-function quizzPage() {
+function quizzPage()
+{
     $quiz = new Quiz();
     $question = $quiz->getQuestion();
     
