@@ -31,15 +31,10 @@ if (isset($_GET['action'])) {
             mapPage();
             break;
         case 'list':
-            listPage();
-            break;
-        case 'filteredList':
-            // var_dump('je sui là');
-            $data = file_get_contents("php://input");
-            if (isset($data)) {
-                filteredListPage($data);
+            if (isset($_GET['filter'])) {
+                listPage($_GET['filter']);
             } else {
-                return false;
+                listPage();
             };
             break;
         case 'profil':

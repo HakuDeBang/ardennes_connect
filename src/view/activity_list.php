@@ -26,8 +26,11 @@
                 </div>
                 <div id="filter-wrapper" class="max-w-screen flex overflow-x-auto pb-2"></div>
                 <div class="max-w-screen flex flex-wrap justify-center gap-3 overflow-x-auto pb-2">
-                    <?php foreach ($tags as $tag) { ?>
-                        <span id="<?= $tag->id ?>" class="tagButton py-1 px-3 border border-darkBlue rounded-xl text-xs font-semibold leading-none cursor-pointer hover:bg-darkBlue hover:text-white data-[selected=true]:bg-darkBlue data-[selected=true]:text-white" data-selected="false"><?= ucfirst($tag->name) ?></span>
+                    <?php
+                    foreach ($tags as $tag) {
+                    ?>
+
+                        <span id="filter_<?= $tag->id ?>" class="tagButton py-1 px-3 border border-darkBlue rounded-xl text-xs font-semibold leading-none cursor-pointer hover:bg-darkBlue hover:text-white data-[selected=true]:bg-darkBlue data-[selected=true]:text-white" data-selected="<?php echo (array_search($tag->id, $filter) !== false) ?  "true" : "false"; ?>"><?= ucfirst($tag->name) ?></span>
                     <?php } ?>
                 </div>
             </div>

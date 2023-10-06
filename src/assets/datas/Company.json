@@ -10,13 +10,14 @@
       "qr_code": "vert_bock_qrCode.png",
       "lat": 49.772491,
       "lon": 4.718851,
+      "popupContent": "<div class='w-full overflow-hidden flex flex-col items-center justify-center rounded-lg'><img class='' src='src/assets/img/imgMap1.jpg'><h5 class='font-bold text-xl'>Vert Bock</h5><span>17 Rue Irénée Carré, 08000 Charleville-Mézières</span><span data-selected=true class='text-xs bg-white flex items-center w-fit py-1 px-3 ml-5 mt-2 leading-none rounded-xldata-[selected=true]:bg-[#004a93] data-[selected=true]:text-white data-[not_active]:bg-[#dc2f34] data-[selected=true]:text-whitetransition-all duration-200'>Bar</span><div>",
       "id_user": "2",
       "link": ""
     },
     {
       "id": 2,
       "name": "C.A. VILLERS SEMEUSE",
-      "tags": [2,3,5],
+      "tags": [2, 3, 4, 5],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -29,7 +30,7 @@
     {
       "id": 3,
       "name": "ENT.MLE CHARLEVILLE",
-      "tags": [2,3,5],
+      "tags": [2, 3, 4, 5],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -42,7 +43,7 @@
     {
       "id": 4,
       "name": "Le Palamède",
-      "tags": [2,3,6],
+      "tags": [2, 3, 6],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -55,7 +56,7 @@
     {
       "id": 5,
       "name": "PING-PONG CLUB TAGNON",
-      "tags": [2,3,7,8],
+      "tags": [2, 3, 7, 8],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -68,7 +69,7 @@
     {
       "id": 6,
       "name": "ARM Natation",
-      "tags": [2,3,9,10],
+      "tags": [2, 3, 9, 10],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -81,7 +82,7 @@
     {
       "id": 7,
       "name": "Bairon Nautic Club",
-      "tags": [2,3,9],
+      "tags": [2, 3, 9],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",
@@ -94,7 +95,7 @@
     {
       "id": 8,
       "name": "Association Profession Sport Culture Ardennes",
-      "tags": [2,3,9,11],
+      "tags": [2, 3, 9, 11],
       "adress": "",
       "cover": "default.jpg",
       "desc": "",

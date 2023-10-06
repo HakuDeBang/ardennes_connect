@@ -50,6 +50,34 @@
     },
     {
       "id": 13,
+      "name": "basketball"
+    },
+    {
+      "id": 14,
+      "name": "Rugby"
+    },
+    {
+      "id": 15,
+      "name": "baby-foot"
+    },
+    {
+      "id": 16,
+      "name": "voile"
+    },
+    {
+      "id": 17,
+      "name": "bateau"
+    },
+    {
+      "id":18,
+      "name": "gastronomie"
+    },
+    {
+      "id": 19,
+      "name": "vie nocturne"
+    },
+    {
+      "id": 20,
       "name": "jeux"
     }
   ]
