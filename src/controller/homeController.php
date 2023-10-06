@@ -9,6 +9,10 @@ function evenement()
 {
     include('src/view/evenement.php');
 }
+function pageEvent()
+{
+    include('src/view/event.php');
+}
 function profil()
 {
     include('src/view/profil.php');
