@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ardennes Connect - Annuaire</title>
     <link href="./dist/output.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="src/assets/styles/animationFilterButton.css"> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/svg/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/svg/favicon.svg">
 </head>
 
 <body class="bg-darkGray h-screen flex flex-col gap-10">

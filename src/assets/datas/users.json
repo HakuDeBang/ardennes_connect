@@ -4,13 +4,33 @@
       "id": 0,
       "pseudo": "admin",
       "password": "admin",
-      "role": "ROLE_ADMIN"
+      "role": "ROLE_ADMIN",
+      "mail": "admin@gmail.com",
+      "profilepicture": "swag.png"
     },
     {
       "id": 1,
       "pseudo": "tom",
       "password": "secret",
-      "role": "USER_ADMIN"
+      "role": "USER_ADMIN",
+      "mail": "tomtom@gmail.com",
+      "profilepicture": "swag.png"
+    },
+    {
+      "pseudo": "valentin",
+      "name": "De mandat",
+      "surname": "Valentin",
+      "mail": "valentindemandat123@gmail.com",
+      "profilepicture": "swag.png",
+      "password": "motdepasse"
+    },
+    {
+      "pseudo": "petitPoucet",
+      "name": "Poucet",
+      "surname": "Guillaume",
+      "mail": "petitpoucet@gmail.com",
+      "profilepicture": "darkBoyz.png",
+      "password": "pasmotdepasse"
     }
   ]
 }

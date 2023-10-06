@@ -1,16 +1,4 @@
 {
-    "1":{
-        "name":"De mandat",
-        "surname":"Valentin",
-        "mail":"valentindemandat123@gmail.com",
-        "profilepicture":"swag.png",
-        "pass":"motdepasse"
-    },
-    "2":{
-        "name":"Poucet",
-        "surname":"Guillaume",
-        "mail":"petitpoucet@gmail.com",
-        "profilepicture":"darkBoyz.png",
-        "pass":"pasmotdepasse"
-    }
+    "1":,
+    "2":
 }

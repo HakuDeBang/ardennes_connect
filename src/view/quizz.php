@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ardennes Connect</title>
+    <title>Ardennes Connect - Questionnaire</title>
     <link href="./dist/output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/svg/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/svg/favicon.svg">
 </head>
 
 <body class="bg-darkGray h-screen">
