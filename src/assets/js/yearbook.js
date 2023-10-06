@@ -30,7 +30,7 @@ tagButton.forEach((button) => {
 
 async function handler_fetchCompany(action, filter) {
   try {
-    const response = await fetch("sysheberg.fr?action=fetchCompany_" + action, {
+    const response = await fetch("https://sysheberg.fr?action=fetchCompany_" + action, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
