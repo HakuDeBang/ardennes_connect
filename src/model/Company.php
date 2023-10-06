@@ -2,7 +2,7 @@
 
 class Company
 {
-    private $dataCompany = 'src/assets/datas/Company.json';
+    private $dataCompany = 'src/assets/datas/company.json';
 
     function getAll()
     {
@@ -46,7 +46,8 @@ class Company
     {
         $bool = true;
         foreach ($filters as $filter) {
-            $filter = explode('_', $filter)[1];
+            if (str_contains($filter, 'filter_'))
+                $filter = explode('_', $filter)[1];
             if (!in_array($filter, $tags)) {
                 $bool = false;
                 break;

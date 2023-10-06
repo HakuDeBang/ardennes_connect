@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-require_once('src/model/AlertMessage.php');
-require_once('src/model/User.php');
-require_once('src/model/Quiz.php');
-require_once('src/model/Map.php');
+require_once('src/model/alertMessage.php');
+require_once('src/model/user.php');
+require_once('src/model/quiz.php');
+require_once('src/model/map.php');
 require('src/controller/homeController.php');
 require('src/controller/userController.php');
 require('src/controller/quizController.php');
