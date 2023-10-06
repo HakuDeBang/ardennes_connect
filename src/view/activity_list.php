@@ -11,7 +11,7 @@
 
 <body class="bg-darkGray h-screen flex flex-col gap-10">
     <?php require('src/view/template/navbar.php'); ?>
-    <main class="space-y-10">
+    <main class="flex-grow space-y-10">
         <div class="flex flex-col items-center">
             <h2 class="text-4xl font-bold text-center">Annuaire</h2>
             <hr class="w-[200px] mx-auto mt-2 border-2 border-yellowLogo" />

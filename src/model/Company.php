@@ -28,7 +28,6 @@ class Company
         $dataTags = $Tags->getAll();
 
         $companies = [];
-
         foreach ($dataCompany->companies as $index => $company) {
 
             if ($this->checkTag($filter, $company->tags)) {
@@ -47,6 +46,7 @@ class Company
     {
         $bool = true;
         foreach ($filters as $filter) {
+            $filter = explode('_', $filter)[1];
             if (!in_array($filter, $tags)) {
                 $bool = false;
                 break;

@@ -8,7 +8,7 @@
     <link href="./dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-darkGray h-screen flex flex-col gap-10">
+<body class="bg-darkGray h-screen">
 
     <?php require('template/navbar.php'); ?>
     <main>
@@ -41,6 +41,8 @@
         </div>
     </main>
     <?php require('template/footer.php'); ?>
+    <?php require('template/bottomNavbar.php'); ?>
+
     <script src="src/assets/js/ajax_handleFormSubmission.js"></script>
     <script>
         handleFormSubmission('#login-form', 'index.php?action=loginTreatment');

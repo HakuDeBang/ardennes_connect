@@ -93,7 +93,7 @@ function createAndShowCard(companyData) {
                 .map(
                   (nameTag) => `
                 <span class="bg-darkBlue text-white text-xs font-semibold flex items-center w-fit py-1 px-3 ml-5 mt-2 leading-none rounded-xl">
-                  ${nameTag}
+                  ${capitalizeFirstLetter(nameTag)}
                 </span>
               `
                 )
@@ -108,4 +108,8 @@ function createAndShowCard(companyData) {
     card.innerHTML = cardContent;
     cardContainer.appendChild(card);
   });
+}
+
+function capitalizeFirstLetter(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
