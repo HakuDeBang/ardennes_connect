@@ -1,8 +1,8 @@
-<nav class="hidden lg:block sticky top-0 z-[100] mx-auto bg-lightGray w-10/12 rounded-b-[40px]">
+<nav class="hidden lg:block sticky lg:top-0 z-[100] mx-auto bg-lightGray w-10/12 rounded-b-[40px]">
     <div class="px-8 py-3 flex flex-row items-center justify-between">
         <!-- logo -->
         <a href="#" class="">
-            <img class="w-[50px] h-[50px]" src="src/assets/img/logo2.png" alt="Logo Ardennes Connect">
+            <img class="w-[50px] h-[50px]" src="src/assets/img/logo3.png" alt="Logo Ardennes Connect">
         </a>
         <!-- Bouton Navbar -->
         <div class="flex-grow flex justify-center items-center gap-20">

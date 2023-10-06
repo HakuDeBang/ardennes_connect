@@ -34,6 +34,8 @@
             <div id="map" class="w-full h-[800px]"></div>
         </div>
     </main>
+    <?php include('src/view/template/bottomNavbar.php') ?>
+
 
     <?php include('src/view/template/footer.php') ?>
     <script src="src/assets/js/map.js"></script>
