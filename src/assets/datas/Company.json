@@ -107,7 +107,7 @@
     {
       "id": 9,
       "name": "La Bourbonade",
-      "tags": [1],
+      "tags": [1,13],
       "adress": "23 Rue de Bourbon",
       "cover": "imgMap5.jpg",
       "desc": "",

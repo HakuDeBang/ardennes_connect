@@ -31,6 +31,10 @@
         {
             "id_company": 8,
             "id_tag": 2
+        },
+        {
+            "id_company": 9,
+            "id_tag": 1
         }
     ]
 }
