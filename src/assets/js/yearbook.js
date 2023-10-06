@@ -30,7 +30,7 @@ tagButton.forEach((button) => {
 
 async function handler_fetchCompany(action, filter) {
   try {
-    const response = await fetch("index?action=fetchCompany_" + action, {
+    const response = await fetch("?action=fetchCompany_" + action, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -90,19 +90,18 @@ function createAndShowCard(companyData) {
             <p class="font-semibold text-xs">${company.adress}</p>
             <div class="flex flex-wrap">
               ${company.tags
-                .map(
-                  (nameTag) => `
+        .map(
+          (nameTag) => `
                 <span class="bg-darkBlue text-white text-xs font-semibold flex items-center w-fit py-1 px-3 ml-5 mt-2 leading-none rounded-xl">
                   ${capitalizeFirstLetter(nameTag)}
                 </span>
               `
-                )
-                .join("")}
+        )
+        .join("")}
             </div>
           </div>
-          <img src="src/assets/img/upload/company_cover/${
-            company.cover
-          }" alt="company image" class="aspect-square h-24" />
+          <img src="src/assets/img/upload/company_cover/${company.cover
+      }" alt="company image" class="aspect-square h-24" />
         `;
 
     card.innerHTML = cardContent;
