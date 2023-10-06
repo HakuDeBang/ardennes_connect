@@ -13,9 +13,11 @@ RewriteEngine on
 #--------------------------------------------------
 
 RewriteRule ^accueil$ ?action=home
-RewriteRule ^carte$ ?action=map
 RewriteRule ^quiz$ ?action=quizz
+RewriteRule ^carte$ ?action=map
 RewriteRule ^annuaire$ ?action=list
+RewriteRule ^evenement$ ?action=event
+RewriteRule ^activite$ ?action=list
 
 RewriteRule ^connexion$ ?action=login
 RewriteRule ^deconnexion$ ?action=logOut
