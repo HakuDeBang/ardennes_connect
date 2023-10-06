@@ -42,6 +42,9 @@
             <?php include('src/view/components/companyCard.php'); ?>
         </div>
     </main>
+    <?php require('src/view/template/bottomNavbar.php'); ?>
+
+
     <?php require('src/view/template/footer.php'); ?>
 
 

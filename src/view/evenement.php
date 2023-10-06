@@ -17,10 +17,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         /* Add this CSS */
-        .flex {
+        /* .flex {
             display: flex;
             flex-grow: 1;
-        }
+        } */
     </style>
 </head>
 
@@ -30,6 +30,8 @@
     <main class="flex flex-col items-center justify-center gap-4">
         <?php require('template/card.php'); ?>
     </main>
+    <?php require('template/bottomNavbar.php'); ?>
+
 
     <?php require('template/footer.php'); ?>
 
