@@ -102,9 +102,20 @@
     {
       "id": 10,
       "name": "L'antre des jeux",
-      "tags": [13],
+      "tags": [20],
       "adress": "31 Rue Bourbon, 08000 Charleville-Mézières",
       "cover": "imgMap6.jpg",
+      "desc": "",
+      "qr_code": "",
+      "id_user": "2",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "name": "Etam Lingerie",
+      "tags": [21],
+      "adress": "11 Rue de Bourbon, 08000, Charleville-Mézières",
+      "cover": "imgMap7.jpg",
       "desc": "",
       "qr_code": "",
       "id_user": "2",
