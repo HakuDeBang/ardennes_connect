@@ -12,7 +12,6 @@ require('src/controller/mapController.php');
 require('src/controller/listController.php');
 
 // var_dump($_SESSION['user']);
-var_dump('Index');
 
 if (isset($_GET['action'])) {
     switch ($_GET['action']) {
@@ -35,7 +34,7 @@ if (isset($_GET['action'])) {
             listPage();
             break;
         case 'filteredList':
-            var_dump('je sui là');
+            // var_dump('je sui là');
             $data = file_get_contents("php://input");
             if (isset($data)) {
                 filteredListPage($data);
@@ -46,6 +45,14 @@ if (isset($_GET['action'])) {
         case 'profil':
             if (isset($_SESSION['user']))
                 profil();
+            break;
+        case 'scanner':
+            if (isset($_SESSION['user']))
+                qrcode();
+            break;
+        case 'coupon':
+            if (isset($_SESSION['user']))
+                coupon();
             break;
         case 'login':
             if (!isset($_SESSION['user']))

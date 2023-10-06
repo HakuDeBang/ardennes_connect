@@ -18,6 +18,9 @@ RewriteRule ^carte$ ?action=map
 RewriteRule ^annuaire$ ?action=list
 RewriteRule ^evenement$ ?action=event
 RewriteRule ^activite$ ?action=list
+RewriteRule ^profil$ ?action=profil
+RewriteRule ^scanner$ ?action=scanner
+RewriteRule ^coupon$ ?action=coupon
 
 RewriteRule ^connexion$ ?action=login
 RewriteRule ^deconnexion$ ?action=logOut

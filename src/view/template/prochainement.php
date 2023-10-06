@@ -216,6 +216,6 @@
             </div>
         </div>
         <!-- Voir Plus -->
-        <a class="bg-yellowLogo mt-4 md:mt-8 lg:mt-10 text-center w-56 px-4 py-1.5 md:px-6 md:py-2 md:w-80 lg:px-7 lg:py-2.5 lg:w-96 2xl:w-96 2xl:px-8 2xl:py-3 rounded-full text-base md:text-lg lg:text-xl 2xl:text-2xl font-semibold" href="#" type="button">Voir les prochains évènements</a>
+        <a href="evenement" class="bg-yellowLogo mt-4 md:mt-8 lg:mt-10 text-center w-56 px-4 py-1.5 md:px-6 md:py-2 md:w-80 lg:px-7 lg:py-2.5 lg:w-96 2xl:w-96 2xl:px-8 2xl:py-3 rounded-full text-base md:text-lg lg:text-xl 2xl:text-2xl font-semibold" href="#" type="button">Voir les prochains évènements</a>
     </div>
 </div>

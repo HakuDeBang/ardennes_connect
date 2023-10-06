@@ -88,10 +88,10 @@
             
             <div class="flex mx-auto lg:w-2/5 xl:w-1/4 justify-between">
                 <!-- QR CODE -->
-                <a id="tabBtn1" class="flex items-center w-auto mx-4 cursor-pointer lg:mx-0">
+                <a href="scanner" id="tabBtn1" class="flex items-center w-auto mx-4 cursor-pointer lg:mx-0">
                     <img src="src/assets/svg/qrcode.svg" class="w-6 h-6 mr-1 lg:h-4 lg:w-4"
                         alt="icon pour voir mes cours en ligne">
-                    <p class="hidden lg:flex">Mon qr code</p>
+                    <p class="hidden lg:flex">Sanner le qr code</p>
                 </a>
                 <!-- FAVORIS -->
                 <a id="tabBtn2" class="flex items-center w-auto mx-4 cursor-pointer lg:mx-0 lg:mr-0">
