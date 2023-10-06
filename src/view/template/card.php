@@ -12,20 +12,20 @@
                     de chez vous. Chaque année vous êtes nombreux à venir vous prélasser sur les bancs de sable ou venir
                     faire du sport et participer à nos nombreuses activités.</p>
                 <p class="text-gray-600 font-bold mt-4">Ardenne-metropole.</p>
-                <div class="flex mt-2">
-                    <p class="text-gray-600 ">
+                <div class="flex flex-col items-center justify-center mt-2 space-y-2">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector.svg" alt="Clock Icon" class="w-6 h-6 inline-block align-middle">
                         12h-21h.
                     </p>
-                    <p class="text-gray-600 ml-3">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         du 8 juillet au 20 août 2023
                     </p>
+                    <p class="text-gray-600">
+                        <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
+                        Place Ducale
+                    </p>
                 </div>
-                <p class="text-gray-600 mt-2">
-                    <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
-                    Place Ducale
-                </p>
             </div>
         </div>
     </div>
@@ -42,23 +42,23 @@
                     assure à son territoire un rayonnement exceptionnel et a su s’imposer de par le monde comme le
                     rendez-vous majeur des artistes et curieux de cet art.</p>
                 <p class="text-gray-600 font-bold mt-4">Les Petits Comédiens de Chiffons.</p>
-                <div class="flex mt-2">
-                    <p class="text-gray-600 ">
+                <div class="flex flex-col items-center justify-center mt-2 space-y-2">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector.svg" alt="Clock Icon" class="w-6 h-6 inline-block align-middle">
                         10h-20h.
                     </p>
-                    <p class="text-gray-600 ml-3">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         du 16 septembre au 24 septembre 2023
                     </p>
+                    <p class="text-gray-600">
+                        <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
+                        Place Ducale
+                    </p>
                 </div>
-                <p class="text-gray-600 mt-2">
-                    <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
-                    Place Ducale
-                </p>
             </div>
         </div>
-        <div class="md:w-1/3 p-2">
+        <div class="md:w-1/3 p-4">
             <img src="src\assets\img\2.png" alt="Image" class="w-full rounded-lg h-80 object-cover">
         </div>
 
@@ -81,20 +81,20 @@
                     de chez vous. Chaque année vous êtes nombreux à venir vous prélasser sur les bancs de sable ou venir
                     faire du sport et participer à nos nombreuses activités.</p>
                 <p class="text-gray-600 font-bold mt-4">Ardenne-metropole.</p>
-                <div class="flex mt-2">
-                    <p class="text-gray-600 ">
+                <div class="flex flex-col items-center justify-center mt-2 space-y-2">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector.svg" alt="Clock Icon" class="w-6 h-6 inline-block align-middle">
                         15h30 à 19h30
                     </p>
-                    <p class="text-gray-600 ml-3">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         5 octobre 2023
                     </p>
+                    <p class="text-gray-600">
+                        <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
+                        Place Ducale
+                    </p>
                 </div>
-                <p class="text-gray-600 mt-2">
-                    <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
-                    Place Ducale
-                </p>
             </div>
         </div>
     </div>
@@ -111,20 +111,20 @@
                     éventail de musiques, rock, reggae, electro, rap, blues, métal, pop ou jazz, se déroulant à
                     Charleville-Mézières dans le département des Ardennes.</p>
                 <p class="text-gray-600 font-bold mt-4">Cabaret Vert.</p>
-                <div class="flex mt-2">
-                    <p class="text-gray-600 ">
+                <div class="flex flex-col items-center justify-center mt-2 space-y-2">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector.svg" alt="Clock Icon" class="w-6 h-6 inline-block align-middle">
                         14h30 à 00h30
                     </p>
-                    <p class="text-gray-600 ml-3">
+                    <p class="text-gray-600">
                         <img src="src\assets\svg\vector1.svg" alt="Calendar Icon" class="w-6 h-6 inline-block align-middle">
                         16 août – 20 août 2023
                     </p>
+                    <p class="text-gray-600">
+                        <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
+                        Place Ducale
+                    </p>
                 </div>
-                <p class="text-gray-600 mt-2">
-                    <img src="src\assets\svg\map.svg" alt="Map Icon" class="w-6 h-6 inline-block align-middle">
-                    Place Ducale
-                </p>
             </div>
         </div>
         <div class="md:w-1/3 p-4">
