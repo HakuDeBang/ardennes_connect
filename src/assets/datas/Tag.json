@@ -83,6 +83,10 @@
     {
       "id": 21,
       "name": "vetement"
+    },
+    {
+      "id": 22,
+      "name": "boulangerie"
     }
   ]
 }

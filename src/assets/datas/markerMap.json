@@ -52,7 +52,14 @@
       "lat": 49.77185511213515,
       "lon": 4.719035625457765,
       "name": "Etam Lingerie",
-      "popupContent": "<div class='mt-3 h-32 overflow-hidden flex items-center justify-center rounded-lg'><img class='' src='src/assets/img/imgMap6.jpg'></div><h5 class='font-bold text-xl'>Etam Lingerie</h5><div class='mt-2'><span class='font-semibold'>Adresse :</span>11 Rue de Bourbon, 08000, Charleville-Mézières<<</div><div class='mt-2'><div data-selected=true class='text-xs bg-white flex items-center w-fit py-1 px-3 mt-2 leading-none rounded-xl data-[selected=true]:bg-[#004a93] data-[selected=true]:text-white data-[not_active]:bg-[#dc2f34] data-[selected=true]:text-white transition-all duration-200 cursor-pointer'>Vetement</div></div>"
+      "popupContent": "<div class='mt-3 h-32 overflow-hidden flex items-center justify-center rounded-lg'><img class='' src='src/assets/img/imgMap7.jpg'></div><h5 class='font-bold text-xl'>Etam Lingerie</h5><div class='mt-2'><span class='font-semibold'>Adresse :</span>11 Rue de Bourbon, 08000, Charleville-Mézières</div><div class='mt-2'><div data-selected=true class='text-xs bg-white flex items-center w-fit py-1 px-3 mt-2 leading-none rounded-xl data-[selected=true]:bg-[#004a93] data-[selected=true]:text-white data-[not_active]:bg-[#dc2f34] data-[selected=true]:text-white transition-all duration-200 cursor-pointer'>Vetement</div></div>"
+    },
+    {
+      "id_company": 12,
+      "lat": 49.773511123031106,
+      "lon": 4.718440175056458,
+      "name": "Boulangerie pâtisserie du théâtre",
+      "popupContent": "<div class='mt-3 h-32 overflow-hidden flex items-center justify-center rounded-lg'><img class='' src='src/assets/img/imgMap8.jpg'></div><h5 class='font-bold text-xl'>Boulangerie pâtisserie du théâtre</h5><div class='mt-2'><span class='font-semibold'>Adresse :</span>10 Rue du Théatre, 08000 Charleville-Mézières</div><div class='mt-2'><div data-selected=true class='text-xs bg-white flex items-center w-fit py-1 px-3 mt-2 leading-none rounded-xl data-[selected=true]:bg-[#004a93] data-[selected=true]:text-white data-[not_active]:bg-[#dc2f34] data-[selected=true]:text-white transition-all duration-200 cursor-pointer'>Boulangerie</div></div>"
     }
   ]
 }

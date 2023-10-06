@@ -35,6 +35,18 @@
         {
             "id_company": 9,
             "id_tag": 1
+        },
+        {
+            "id_company": 10,
+            "id_tag": 20
+        },
+        {
+            "id_company": 11,
+            "id_tag": 21
+        },
+        {
+            "id_company": 12,
+            "id_tag": 22
         }
     ]
 }
